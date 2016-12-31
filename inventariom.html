@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<html>
+	<head>
+		<title>Inventario Modificar</title>
+	</head>
+	<body>
+	<h1> Ingrese los datos del artículo a modificar </h1><br>
+	<form action ="inventariom.php" method="post">
+	Codigo:<input type="text" name="codigo"><br>
+	<select name="operacion">
+		<option value="anadir" name="anadir">Añadir</option>
+		<option value="restar" name="restar">Restar</option>
+	</select><br>
+	Cantidad:<input type="text" name="cantidad"><br>
+	<input type="submit" value="Modificar" name="modificar">
+	</form>	
+	</body>
+	</html>
